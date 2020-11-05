@@ -1,0 +1,119 @@
+:root {
+  --black-1: #272a31;
+  --red-2: #ec5242;
+  --white-3: #d3d3d3;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--black-1);
+  font-family: Lato-Regular;
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../assets/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cocogoose-Regular;
+  src: url(../assets/fonts/Cocogoose-Pro-Regular-Trial.ttf);
+}
+
+.red-2 {
+  color: var(--red-2);
+}
+
+.white-3 {
+  color: var(--white-3);
+}
+
+.fill-white {
+  filter: invert(100%);
+}
+
+.bg-info-1 {
+  background-color: rgba(245, 245, 245, 0.911);
+}
+
+.bg-info-2 {
+  background-color: rgba(12, 12, 12, 0.692);
+}
+
+.bg-info-3 {
+  background-color: var(--red-2);
+}
+
+.coogose {
+  font-family: Cocogoose-Regular;
+}
+
+.tickness {
+  border: 2px solid gray;
+}
+
+.underline {
+  position: relative;
+}
+
+.underline::after {
+  content: '';
+  width: 30%;
+  border-bottom: solid 1px var(--red-2);
+  position: absolute;
+  bottom: 0px;
+  left: 30%;
+}
+
+.underline-2 {
+  position: relative;
+}
+
+.underline-2::after {
+  content: '';
+  width: 10%;
+  border-bottom: solid 1px var(--black-1);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+
+.title-2 {
+  background-image: -webkit-linear-gradient(var(--red-2), #0c0403);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ion-icon {
+  color: var(--red-2);
+}
+
+@media (max-width: 768px) {
+  body {
+    background: url(../assets/test.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+  .title-1 {
+    font-size: 2rem;
+    font-family: Lato-Regular;
+  }
+
+  .title-2 {
+    font-size: 4rem;
+    font-family: Cocogoose-Regular;
+  }
+
+  .bg-img-1 {
+    background: url(../assets/metal-background.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+  .max-w-100 {
+    max-width: 100px;
+  }
+}
+
+@media (min-width: 769px) {}
