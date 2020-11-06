@@ -86,6 +86,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+.btn-lg-1 {
+  width: 75%;
+ 
+  height: 100px;
+}
+
 ion-icon {
   color: var(--red-2);
 }
@@ -113,6 +119,24 @@ ion-icon {
 
   .max-w-100 {
     max-width: 100px;
+  }
+}
+@media (max-width: 360px) {
+* {
+  font-size:12px
+}
+  .title-1 {
+    font-size: 1rem;
+    font-family: Lato-Regular;
+  }
+
+  .title-2 {
+    font-size: 2rem;
+    font-family: Cocogoose-Regular;
+  }
+
+  .txt-small {
+    font-size: 0.9rem;
   }
 }
 
