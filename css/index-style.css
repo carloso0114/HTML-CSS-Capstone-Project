@@ -88,7 +88,7 @@
 
 .btn-lg-1 {
   width: 75%;
- 
+
   height: 100px;
 }
 
@@ -121,10 +121,12 @@ ion-icon {
     max-width: 100px;
   }
 }
+
 @media (max-width: 360px) {
-* {
-  font-size:12px
-}
+  * {
+    font-size: 12px
+  }
+
   .title-1 {
     font-size: 1rem;
     font-family: Lato-Regular;
