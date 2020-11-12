@@ -12,24 +12,55 @@
 
 <body>
   <header>
-    <nav class="navbar bg-transparent">
+    <nav class="bg-info-2">
+      <div class="container-fluid display-none-nav">
+        <ul class="nav navbar justify-content-end margin-10">
+          <li class="nav-item"><a class="nav-link white-3" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li class="nav-item"><a class="nav-link white-3" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="nav-item"><a class="nav-link white-3" href="#">Logout</a></li>
+          <li class="nav-item"><a class="nav-link white-3" href="#">Mypage</a></li>
+          <li class="nav-item"><a class="nav-link white-3" href="#">Español</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="bg-white">
+      <div class="container-fluid display-none-nav">
+        <ul class="nav navbar justify-content-end margin-10">
+          <li class="nav-item">
+            <div><img class="m-w-100" src="../assets/logo/cctv.svg" alt="CCTV-Logo"></div>
+          </li>
+          <li class="nav-item"><a class="nav-link white-3" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link white-3" href="#">Program</a></li>
+          <li class="nav-item"><a class="nav-link white-3" href="#">Join</a></li>
+          <li class="nav-item"><a class="nav-link white-3" href="#">Sponsor</a></li>
+          <li class="nav-item"><a class="nav-link white-3" href="#">News</a></li>
+          <li class="nav-item"><a class="nav-link red-2 red-2-bd" href="#">CC Campaign</a></li>
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar bg-transparent display-none">
       <a class="text-reset" href="#">
         <i class="fa fa-bars fa-5x pl-4 pt-3" aria-hidden="true"></i>
       </a>
     </nav>
   </header>
-  <div class="text-left pl-4 pt-3 my-5">
+  <div class="f-size-1 float-right mr-5 display-none-nav">
+    <i class="fa fa-home" aria-hidden="true"></i>
+    <i class="fa fa-chevron-right red-2" aria-hidden="true"></i>
+    <span>About</span>
+    <i class="fa fa-chevron-right red-2" aria-hidden="true"></i>
+    <span>CC Campaign</span>
+  </div>
+  <div class="pl-4 pt-3 my-5 margin-x-1">
     <h1 class="title-1 red-2">A world full of oportunities</h1>
     <h1 class="title-2">CCTV EXPOSHOW 2020</h1>
   </div>
-
-  <div class="bg-info-1 p-2 border rounded text-center mx-4 h5">
+  <div class="bg-info-1 p-2 border margin-x-2 h5">
     <p>
       Come and take a look, international companys are willing to share with you their next generaition devices, to make you feel secure at home.
     </p>
   </div>
-
-  <div class="text-left pl-4 pt-3 my-5">
+  <div class="pl-4 pt-3 my-5 margin-x-2">
     <h2 class="coogose">
       DUE TO THE VIRUS THE EVENT HAD TO BE POSTPONED
     </h2>
@@ -38,102 +69,127 @@
     </h2>
   </div>
   <main>
-    <div class="container-fluid bg-img-1 pb-1">
-      <h5 class="text-center pt-4"> <span class="underline pb-3 white-3 h2">Main Program </span></h5>
-
-      <div class="row row-cols-3 bg-info-2 align-items-center m-0 p-4">
-
-        <div>
-          <img class="fill-white img-fluid" src="../assets/icons/press-conference.svg" alt="lecture">
+    <div class="bg-img-1 pb-5">
+      <h5 class="text-center pt-4 mb-5"> <span class="underline pb-3 white-3 h2 font-weight-bold">Main Program </span></h5>
+      <div class="container-769">
+        <div class="display-grid-1">
+          <div class="bg-info-2 img-m-height text-center display-inline-grid-1 padding-main-program">
+              <img class="fill-white img-fluid" src="../assets/icons/press-conference.svg" alt="lecture">
+              <h5 class="red-2 coogose">Lecture</h5>
+              <p class="white-3 h4">Listen to the speakers from various countries about the messeges of sharing and opening</p>
+          </div>
+          <div class="bg-info-2 img-m-height text-center display-inline-grid-1 padding-main-program">
+              <img class="fill-white img-fluid" src="../assets/icons/blackboard.svg" alt="lecture">            
+              <h5 class="red-2 coogose txt-small">Exhibition</h5>                      
+              <p class="white-3 h4">Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>          
+          </div>
+          <div class="bg-info-2 img-m-height text-center display-inline-grid-1 padding-main-program">
+              <img class="fill-white img-fluid" src="../assets/icons/discussion.svg" alt="lecture">            
+              <h5 class="red-2 coogose">Forum</h5>                      
+              <p class="white-3 h4">Have the time to share your thoughts and opinions with experts of each topic.</p>            
+          </div>
+          <div class="bg-info-2 img-m-height text-center display-inline-grid-1 padding-main-program">        
+              <img class="fill-white img-fluid" src="../assets/icons/workshop.svg" alt="lecture">                    
+              <h5 class="red-2 coogose txt-small">Workshop</h5>                 
+              <p class="white-3 h4">Try creating your own work using open source license rather than just watching</p>           
+          </div>
+          <div class="bg-info-2 img-m-height text-center display-inline-grid-1 padding-main-program">          
+              <img class="fill-white img-fluid" src="../assets/icons/connect.svg" alt="lecture">                  
+              <h5 class="red-2 coogose">CC Ignite</h5>               
+              <p class="white-3 h4">Get opportunities to network with CC affiliates around the world, also after the summit.</p>      
+          </div>
         </div>
-        <div>
-          <h5 class="red-2 coogose text-center">Lecture</h5>
-        </div>
-        <div>
-          <p class="white-3 h4 text-left">Listen to the speakers from various countries about the messeges of sharing and opening</p>
-        </div>
-
-      </div>
-
-
-      <div class="row row-cols-3 bg-info-2 align-items-center mx-0 my-5 p-4">
-        <div>
-          <img class="fill-white img-fluid" src="../assets/icons/blackboard.svg" alt="lecture">
-        </div>
-        <div>
-          <h5 class="red-2 coogose text-center txt-small">Exhibition</h5>
-        </div>
-        <div>
-          <p class="white-3 h4 text-left">Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>
-        </div>
-      </div>
-
-      <div class="row row-cols-3 bg-info-2 align-items-center mx-0 my-5 p-4">
-        <div>
-          <img class="fill-white img-fluid" src="../assets/icons/discussion.svg" alt="lecture">
-        </div>
-        <div>
-          <h5 class="red-2 coogose text-center">Forum</h5>
-        </div>
-        <div>
-          <p class="white-3 h4 text-left">Have the time to share your thoughts and opinions with experts of each topic.</p>
+        <div class="px-5 py-5 display-none">
+          <button type="button" class="btn btn-lg-2 bg-info-3 btn-block rounded tickness"><span class="h2 white-3">Join CCTV Exposhow 2020</span></button>
         </div>
       </div>
-
-      <div class="row row-cols-3 bg-info-2 align-items-center mx-0 my-5 p-4">
-        <div>
-          <img class="fill-white img-fluid" src="../assets/icons/workshop.svg" alt="lecture">
-        </div>
-        <div>
-          <h5 class="red-2 coogose text-center txt-small">Workshop</h5>
-        </div>
-        <div>
-          <p class="white-3 h4 text-left">Try creating your own work using open source license rather than just watching</p>
-        </div>
-      </div>
-
-      <div class="row row-cols-3 bg-info-2 align-items-center mx-0 my-5 p-4">
-        <div>
-          <img class="fill-white img-fluid" src="../assets/icons/connect.svg" alt="lecture">
-        </div>
-        <div>
-          <h5 class="red-2 coogose text-center">CC Ignite</h5>
-        </div>
-        <div>
-          <p class="white-3 h4 text-left">Get opportunities to network with CC affiliates around the world, also after the summit.</p>
-        </div>
-      </div>
+      <h2 class="text-center pt-5 my-5 display-none-nav"><u class="white-3">SEE THE WHOLE PROGRAM</u></h2>
     </div>
-
-
-    </div>
-
-
-
-
     <div class="bg-white">
-      <h5 class="text-center py-4"> <span class="underline pb-3 h2">Featured Speakers</span></h5>
-      <article class="py-4 d-flex">
-        <img class="img-fluid col-4" src="../assets/pictures/fu-liquan.jpg" alt="fu-liquian">
-        <div class="col-8">
+      <div class="container-769 px-1">
+      <h5 class="text-center py-4"> <span class="underline pb-3 h2 font-weight-bold">Featured Speakers</span></h5>
+      <div class="display-flex">
+      <article class="py-4 d-flex width-50">
+        <img class="img-fluid width-50-img" src="../assets/pictures/fu-liquan.jpg" alt="fu-liquian">
+        <div class=" info-text">
           <h3 class="font-weight-bold">Fu Liquan</h3>
-          <p><span class="red-2 underline-2 pb-3 font-weight-light">Founder of Zhejiang Dahua Technology</span></p>
+          <p><span class="red-2 underline-2 pb-3 pl-0 font-weight-light">Founder of Zhejiang Dahua Technology</span></p>
           <p class="font-weight-light">Fu Liquan is the President and CEO of Dahua Technology.</p>
         </div>
       </article>
-      <article class="py-4 d-flex">
-        <img class="test img-fluid col-4" src="../assets/pictures/Gong-Hongjia.jpg" alt="fu-liquian">
-        <div class="col-8">
+      <article class="py-4 d-flex width-50">
+        <img class="img-fluid width-50-img" src="../assets/pictures/Gong-Hongjia.jpg" alt="fu-liquian">
+        <div class="info-text">
           <h3 class="font-weight-bold">Gong Hongjia</h3>
-          <p><span class="red-2 underline-2 pb-3 font-weight-light">Founder of Hikvision Digital Technology.</span></p>
+          <p><span class="red-2 underline-2 pb-3 pl-0 font-weight-light">Founder of Hikvision Digital Technology.</span></p>
           <p class="font-weight-light">Presently, he is serving as a vice-chairman of Hikvision Technology.</p>
         </div>
       </article>
-      <div class="px-5 pb-5">
-        <button type="button" class="btn btn-lg btn-block rounded tickness"><span>MORE <i class="fa fa-chevron-down red-2" aria-hidden="true"></i></span>
+    </div>
+    <div class="display-flex display-none-nav">
+      <article class="py-4 d-flex width-50">
+        <img class="img-fluid width-50" src="../assets/pictures/fu-liquan.jpg" alt="fu-liquian">
+        <div class=" info-text">
+          <h3 class="font-weight-bold">Fu Liquan</h3>
+          <p><span class="red-2 underline-2 pb-3 pl-0 font-weight-light">Founder of Zhejiang Dahua Technology</span></p>
+          <p class="font-weight-light">Fu Liquan is the President and CEO of Dahua Technology.</p>
+        </div>
+      </article>
+      <article class="py-4 d-flex width-50">
+        <img class="img-fluid width-50" src="../assets/pictures/Gong-Hongjia.jpg" alt="fu-liquian">
+        <div class="info-text">
+          <h3 class="font-weight-bold">Gong Hongjia</h3>
+          <p><span class="red-2 underline-2 pb-3 pl-0 font-weight-light">Founder of Hikvision Digital Technology.</span></p>
+          <p class="font-weight-light">Presently, he is serving as a vice-chairman of Hikvision Technology.</p>
+        </div>
+      </article>
+    </div>
+    <div class="display-flex display-none-nav">
+      <article class="py-4 d-flex width-50">
+        <img class="img-fluid width-50" src="../assets/pictures/fu-liquan.jpg" alt="fu-liquian">
+        <div class=" info-text">
+          <h3 class="font-weight-bold">Fu Liquan</h3>
+          <p><span class="red-2 underline-2 pb-3 pl-0 font-weight-light">Founder of Zhejiang Dahua Technology</span></p>
+          <p class="font-weight-light">Fu Liquan is the President and CEO of Dahua Technology.</p>
+        </div>
+      </article>
+      <article class="py-4 d-flex width-50">
+        <img class="img-fluid width-50" src="../assets/pictures/Gong-Hongjia.jpg" alt="fu-liquian">
+        <div class="info-text">
+          <h3 class="font-weight-bold">Gong Hongjia</h3>
+          <p><span class="red-2 underline-2 pb-3 pl-0 font-weight-light">Founder of Hikvision Digital Technology.</span></p>
+          <p class="font-weight-light">Presently, he is serving as a vice-chairman of Hikvision Technology.</p>
+        </div>
+      </article>
+    </div>
+      <div class="px-5 pb-5 display-none">
+        <button type="button" class="btn btn-lg-1 btn-block rounded tickness"><span class="h4">MORE <i class="fa fa-chevron-down red-2" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>
+  </div>
+
+  <div class="bg-dark display-none-nav">
+    <h3 class="text-center pt-4 mb-5"> <span class="underline pb-3 white-3">Partner </span></h3>
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="img-m-height-2"><img class="img-fluid ml-3" src="../assets/logo/hikvision-logo.png" alt="hikvision-logo"></div>
+        <div class="img-m-height"><img class="img-fluid ml-4" src="../assets/logo/sony-Logo.png" alt="sony-Logo"></div>
+        <div class="img-m-height"><img class="img-fluid" src="../assets/logo/dahua-logo.png" alt="dahua-logo"></div>
+      </div>
+  </div>
+
+  <div class="bg-white padding-y-1 display-none-nav">
+    <div class="container-769">
+      <div class="d-flex">
+        <img class="img-fluid img-m-height-3" src="../assets/logo/cctv.svg" alt="CCTV-Logo">
+      <div class="margin-left-1">
+        <p class="font-weight-bold h4">2020 CCTV International Business Some Rights Reserved.</p>
+        <p class=" h4"> "Imagine a world where people doesnt have to take care of thiefs"</p>
+        <p class=" h4"> All licenses granted.</p>
+      </div>
+    </div>
+    </div>
+  </div>
 </body>
 
 </html>
