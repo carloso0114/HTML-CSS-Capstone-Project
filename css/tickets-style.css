@@ -2,13 +2,14 @@
   --black-1: #272a31;
   --red-2: #ec5242;
   --white-3: #d3d3d3;
+
   font-size: 16px;
 }
 
 * {
   box-sizing: border-box;
   color: var(--black-1);
-  font-family: Lato-Regular;
+  font-family: Lato-Regular, Arial, Helvetica, sans-serif;
 }
 
 @font-face {
@@ -54,7 +55,7 @@
 }
 
 .coogose {
-  font-family: Cocogoose-Regular;
+  font-family: Cocogoose-Regular, Arial, Helvetica, sans-serif;
 }
 
 .tickness {
@@ -70,7 +71,7 @@
   width: 30%;
   border-bottom: solid 1px var(--red-2);
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 30%;
 }
 
@@ -83,7 +84,7 @@
   width: 10%;
   border-bottom: solid 1px var(--black-1);
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 0;
 }
 
@@ -107,27 +108,23 @@
   display: grid;
 }
 
-ion-icon {
-  color: var(--red-2);
-}
-
 .list-icon::before {
   content: "• ";
   color: var(--red-2);
 }
 
+td {
+  background-color: white;
+}
+
 .borders th,
-.borders td{
- border: solid 1px #CCC;
- padding: 25px 50px;
+.borders td {
+  border: solid 1px #ccc;
+  padding: 25px 50px;
 }
 
 .test {
-  overflow-x:auto
-}
-
-td {
-  background-color: white;
+  overflow-x: auto;
 }
 
 table {
@@ -139,23 +136,23 @@ table {
   border-radius: 30px;
   padding: 10px;
 }
-.box-shadow {
-  box-shadow: 
-      inset 0px 11px 8px -10px #CCC,
-      inset 0px -1px 1px 0px #CCC; 
-    background-color: rgb(243, 243, 243);
-}
 
+.box-shadow {
+  box-shadow:
+    inset 0 11px 8px -10px #ccc,
+    inset 0 -1px 1px 0 #ccc;
+  background-color: rgb(243, 243, 243);
+}
 
 @media (max-width: 768px) {
   .title-1 {
     font-size: 2rem;
-    font-family: Lato-Regular;
+    font-family: Lato-Regular, Arial, Helvetica, sans-serif;
   }
 
   .title-2 {
     font-size: 4rem;
-    font-family: Cocogoose-Regular;
+    font-family: Cocogoose-Regular, Arial, Helvetica, sans-serif;
   }
 
   .bg-img-1 {
@@ -220,8 +217,7 @@ table {
   .display-inline-grid-1 {
     display: inline-grid;
     grid-template-columns: 20% 20% 60%;
-    grid-template-areas:
-      "img title text";
+    grid-template-areas: "img title text";
     justify-content: center;
     align-items: center;
   }
@@ -248,7 +244,6 @@ table {
   .btn-lg-1 {
     height: 90px;
   }
-
 }
 
 @media (min-width: 769px) {
@@ -262,7 +257,7 @@ table {
 
   .title-2 {
     font-size: 4rem;
-    font-family: Cocogoose-Regular;
+    font-family: Cocogoose-Regular, Arial, Helvetica, sans-serif;
   }
 
   .margin-x-1 {
@@ -287,13 +282,12 @@ table {
 
   .container-special {
     min-width: 769px;
-    max-width: 400px;
+    max-width: 770px;
     margin: auto;
   }
 
   .display-grid-1 {
-    grid-template-areas:
-      "lecture exhibition forum workshop ignite";
+    grid-template-areas: "lecture exhibition forum workshop ignite";
     gap: 5px;
   }
 
@@ -301,7 +295,6 @@ table {
     height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
-
   }
 
   .img-m-height-2 {
@@ -348,7 +341,8 @@ table {
     margin-right: 11%;
     margin-left: auto;
   }
- .margin-0-auto {
-   margin: 0 auto;
- }
+
+  .margin-0-auto {
+    margin: 0 auto;
+  }
 }

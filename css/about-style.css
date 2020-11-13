@@ -2,6 +2,7 @@
   --black-1: #272a31;
   --red-2: #ec5242;
   --white-3: #d3d3d3;
+
   font-size: 16px;
 }
 
@@ -22,8 +23,8 @@ nav {
   color: var(--white-3);
 }
 
-.bg-info-2 {
-  background-color: rgba(12, 12, 12, 0.692);
+.bg-info-1 {
+  background-color: rgba(245, 245, 245, 0.911);
 }
 
 .bg-info-2 {
@@ -32,13 +33,6 @@ nav {
 
 .bg-info-4 {
   background-color: var(--black-1);
-}
-
-.title-2 {
-  background-image: -webkit-linear-gradient(var(--red-2), #0c0403);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .underline {
@@ -50,25 +44,21 @@ nav {
   width: 30%;
   border-bottom: solid 1px var(--red-2);
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 30%;
 }
 
 .bg-img-2 {
-  background-image:
-    linear-gradient(rgba(236, 82, 66, 0.80), rgba(236, 82, 66, 0.8)), url(../assets/pictures/expo-1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url(../assets/pictures/expo-1.jpg);
   background-size: 100%;
+  background-position: center 0;
   height: 300px;
 }
 
 .bg-img-3 {
-  background-image:
-    linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url(../assets/pictures/expo-1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url(../assets/pictures/expo-2.jpg);
   background-size: 100%;
+  background-position: center 0;
   height: 300px;
 }
 
@@ -78,8 +68,27 @@ nav {
 }
 
 .d-grid {
-display: grid;
-grid-template-areas: "logo text";
+  display: grid;
+  grid-template-areas: "logo text";
+}
+
+.margin-10-1 {
+  margin-right: 12%;
+  margin-left: auto;
+}
+
+.m-w-100 {
+  max-width: 100px;
+}
+
+.title-1,
+.title-2 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.img-m-height-3 {
+  width: 200px;
 }
 
 @media (max-width: 768px) {
@@ -94,9 +103,7 @@ grid-template-areas: "logo text";
   .margin-fixed-1 {
     margin-left: 10%;
     width: 160px;
-
   }
-
 }
 
 @media (min-width: 769px) {
@@ -106,5 +113,39 @@ grid-template-areas: "logo text";
 
   .display-none {
     display: none;
+  }
+
+  .center {
+    margin: 0 auto;
+    width: 70%;
+    padding: 30px;
+  }
+
+  .center-2 {
+    margin: 0 auto;
+    width: 50%;
+    padding: 30px;
+  }
+
+  .padding-y-1 {
+    padding: 100px 0;
+  }
+
+  .container-769 {
+    min-width: 769px;
+    max-width: 1420px;
+    margin: 0 auto;
+  }
+
+  .margin-left-1 {
+    margin-left: 20%;
+  }
+
+  .display-flex {
+    display: flex;
+  }
+
+  .width-50 {
+    width: 50%;
   }
 }

@@ -2,13 +2,14 @@
   --black-1: #272a31;
   --red-2: #ec5242;
   --white-3: #d3d3d3;
+
   font-size: 16px;
 }
 
 * {
   box-sizing: border-box;
   color: var(--black-1);
-  font-family: Lato-Regular;
+  font-family: Lato-Regular, Arial, Helvetica, sans-serif;
 }
 
 @font-face {
@@ -46,7 +47,7 @@
 }
 
 .coogose {
-  font-family: Cocogoose-Regular;
+  font-family: Cocogoose-Regular, Arial, Helvetica, sans-serif;
 }
 
 .tickness {
@@ -62,7 +63,7 @@
   width: 30%;
   border-bottom: solid 1px var(--red-2);
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 30%;
 }
 
@@ -75,7 +76,7 @@
   width: 10%;
   border-bottom: solid 1px var(--black-1);
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 0;
 }
 
@@ -99,10 +100,6 @@
   display: grid;
 }
 
-ion-icon {
-  color: var(--red-2);
-}
-
 @media (max-width: 768px) {
   body {
     background: url(../assets/test.jpg) no-repeat center fixed;
@@ -111,12 +108,12 @@ ion-icon {
 
   .title-1 {
     font-size: 2rem;
-    font-family: Lato-Regular;
+    font-family: Lato-Regular, Arial, Helvetica, sans-serif;
   }
 
   .title-2 {
     font-size: 4rem;
-    font-family: Cocogoose-Regular;
+    font-family: Cocogoose-Regular, Arial, Helvetica, sans-serif;
   }
 
   .bg-img-1 {
@@ -135,6 +132,7 @@ ion-icon {
   .margin-x-1 {
     margin: 0 5%;
   }
+
   .margin-x-2 {
     margin-left: 10%;
     margin-right: 20%;
@@ -167,12 +165,12 @@ ion-icon {
   }
 
   .display-grid-1 {
-    grid-template-areas: 
-    "lecture"
-    "exhibition"
-    "forum"
-    "workshop"
-    "ignite";
+    grid-template-areas:
+      "lecture"
+      "exhibition"
+      "forum"
+      "workshop"
+      "ignite";
     gap: 13px;
     padding: 0 20px;
   }
@@ -180,8 +178,7 @@ ion-icon {
   .display-inline-grid-1 {
     display: inline-grid;
     grid-template-columns: 20% 20% 60%;
-    grid-template-areas: 
-    "img title text";
+    grid-template-areas: "img title text";
     justify-content: center;
     align-items: center;
   }
@@ -193,36 +190,36 @@ ion-icon {
   }
 
   .display-inline-grid-1 p {
-text-align: left;
-margin-left: 30px;
+    text-align: left;
+    margin-left: 30px;
   }
-  
+
   .padding-main-program {
     padding: 40px;
   }
 
-  .display-inline-grid-1 h5{
+  .display-inline-grid-1 h5 {
     font-size: 1.6rem;
-    }
+  }
 
-    .btn-lg-1  {
-      height: 90px;
-    }
+  .btn-lg-1 {
+    height: 90px;
+  }
 }
 
 @media (max-width: 360px) {
   * {
-    font-size: 12px
+    font-size: 12px;
   }
 
   .title-1 {
     font-size: 1rem;
-    font-family: Lato-Regular;
+    font-family: Lato-Regular, Arial, Helvetica, sans-serif;
   }
 
   .title-2 {
     font-size: 2rem;
-    font-family: Cocogoose-Regular;
+    font-family: Cocogoose-Regular, Arial, Helvetica, sans-serif;
   }
 
   .txt-small {
@@ -246,13 +243,13 @@ margin-left: 30px;
 
   .title-2 {
     font-size: 4rem;
-    font-family: Cocogoose-Regular;
+    font-family: Cocogoose-Regular, Arial, Helvetica, sans-serif;
   }
 
   .margin-x-1 {
     margin-left: 10%;
   }
-  
+
   .margin-x-2 {
     margin-left: 10%;
     margin-right: 20%;
@@ -270,16 +267,14 @@ margin-left: 30px;
   }
 
   .display-grid-1 {
-    grid-template-areas: 
-    "lecture exhibition forum workshop ignite";
+    grid-template-areas: "lecture exhibition forum workshop ignite";
     gap: 5px;
   }
 
   .img-m-height img {
-    height:100px;
+    height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
   }
 
   .img-m-height-2 {
@@ -297,6 +292,7 @@ margin-left: 30px;
 
   .display-flex {
     display: flex;
+    margin: 0 auto;
   }
 
   .info-text h3,
@@ -322,4 +318,8 @@ margin-left: 30px;
     height: 100px;
   }
 
+  .margin-10-1 {
+    margin-right: 11%;
+    margin-left: auto;
+  }
 }
