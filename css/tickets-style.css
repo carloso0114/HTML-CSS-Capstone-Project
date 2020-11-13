@@ -1,0 +1,354 @@
+:root {
+  --black-1: #272a31;
+  --red-2: #ec5242;
+  --white-3: #d3d3d3;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--black-1);
+  font-family: Lato-Regular;
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../assets/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cocogoose-Regular;
+  src: url(../assets/fonts/Cocogoose-Pro-Regular-Trial.otf);
+}
+
+.font-weight {
+  font-weight: 600;
+}
+
+.red-2 {
+  color: var(--red-2);
+}
+
+.white-3 {
+  color: var(--white-3);
+}
+
+.fill-white {
+  filter: invert(100%);
+}
+
+.bg-info-1 {
+  background-color: rgba(245, 245, 245, 0.911);
+}
+
+.bg-info-2 {
+  background-color: rgba(12, 12, 12, 0.692);
+}
+
+.bg-info-3 {
+  background-color: var(--red-2);
+}
+
+.bg-info-4 {
+  background-color: rgb(243, 243, 243);
+}
+
+.coogose {
+  font-family: Cocogoose-Regular;
+}
+
+.tickness {
+  border: 2px solid gray;
+}
+
+.underline {
+  position: relative;
+}
+
+.underline::after {
+  content: '';
+  width: 30%;
+  border-bottom: solid 1px var(--red-2);
+  position: absolute;
+  bottom: 0px;
+  left: 30%;
+}
+
+.underline-2 {
+  position: relative;
+}
+
+.underline-2::after {
+  content: '';
+  width: 10%;
+  border-bottom: solid 1px var(--black-1);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+
+.title-2 {
+  background-image: -webkit-linear-gradient(var(--red-2), #0c0403);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.red-2-bd {
+  border-color: var(--red-2);
+  border: 4px solid;
+}
+
+.m-w-100 {
+  max-width: 100px;
+}
+
+.display-grid-1 {
+  display: grid;
+}
+
+ion-icon {
+  color: var(--red-2);
+}
+
+.list-icon::before {
+  content: "• ";
+  color: var(--red-2);
+}
+
+.borders th,
+.borders td{
+ border: solid 1px #CCC;
+ padding: 25px 50px;
+}
+
+.test {
+  overflow-x:auto
+}
+
+td {
+  background-color: white;
+}
+
+table {
+  border: 8px dashed var(--red-2);
+}
+
+.border-r-1 {
+  border: 1px solid var(--black-1);
+  border-radius: 30px;
+  padding: 10px;
+}
+.box-shadow {
+  box-shadow: 
+      inset 0px 11px 8px -10px #CCC,
+      inset 0px -1px 1px 0px #CCC; 
+    background-color: rgb(243, 243, 243);
+}
+
+
+@media (max-width: 768px) {
+  .title-1 {
+    font-size: 2rem;
+    font-family: Lato-Regular;
+  }
+
+  .title-2 {
+    font-size: 4rem;
+    font-family: Cocogoose-Regular;
+  }
+
+  .bg-img-1 {
+    background: url(../assets/metal-background.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+  .max-w-100 {
+    max-width: 100px;
+  }
+
+  .display-none-nav {
+    display: none;
+  }
+
+  .margin-x-1 {
+    margin: 0 5%;
+  }
+
+  .margin-x-2 {
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+
+  .container-769 {
+    min-width: 360px;
+    max-width: 768px;
+    margin: auto;
+  }
+
+  .info-text h3 {
+    font-size: 2rem;
+    padding-left: 10px;
+  }
+
+  .info-text span,
+  .info-text p {
+    font-size: 1.6rem;
+    padding-left: 10px;
+  }
+
+  .width-50-img {
+    width: 40%;
+    margin-left: 20px;
+  }
+
+  .btn-lg-2 {
+    height: 140px;
+  }
+
+  .display-grid-1 {
+    grid-template-areas:
+      "lecture"
+      "exhibition"
+      "forum"
+      "workshop"
+      "ignite";
+    gap: 13px;
+    padding: 0 20px;
+  }
+
+  .display-inline-grid-1 {
+    display: inline-grid;
+    grid-template-columns: 20% 20% 60%;
+    grid-template-areas:
+      "img title text";
+    justify-content: center;
+    align-items: center;
+  }
+
+  .display-inline-grid-1 img {
+    width: 110px;
+    margin-right: 10px;
+    padding: 20px;
+  }
+
+  .display-inline-grid-1 p {
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .padding-main-program {
+    padding: 40px;
+  }
+
+  .display-inline-grid-1 h5 {
+    font-size: 1.6rem;
+  }
+
+  .btn-lg-1 {
+    height: 90px;
+  }
+
+}
+
+@media (min-width: 769px) {
+  .display-none {
+    display: none;
+  }
+
+  .margin-10 {
+    margin-right: 10%;
+  }
+
+  .title-2 {
+    font-size: 4rem;
+    font-family: Cocogoose-Regular;
+  }
+
+  .margin-x-1 {
+    margin-left: 10%;
+  }
+
+  .margin-x-2 {
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+
+  .bg-img-1 {
+    background: url(../assets/metal-background.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+  .container-769 {
+    min-width: 769px;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .container-special {
+    min-width: 769px;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .display-grid-1 {
+    grid-template-areas:
+      "lecture exhibition forum workshop ignite";
+    gap: 5px;
+  }
+
+  .img-m-height img {
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .img-m-height-2 {
+    height: 30px;
+    width: 230px;
+  }
+
+  .img-m-height-3 {
+    width: 200px;
+  }
+
+  .margin-left-1 {
+    margin-left: 20%;
+  }
+
+  .display-flex {
+    display: flex;
+  }
+
+  .info-text h3,
+  .info-text span,
+  .info-text p {
+    font-size: 1.4rem;
+    padding-left: 10px;
+  }
+
+  .width-50 {
+    width: 50%;
+  }
+
+  .width-50-img {
+    width: 50%;
+  }
+
+  .padding-y-1 {
+    padding: 100px 0;
+  }
+
+  .btn-lg-1 {
+    height: 100px;
+  }
+
+  .margin-10-1 {
+    margin-right: 11%;
+    margin-left: auto;
+  }
+ .margin-0-auto {
+   margin: 0 auto;
+ }
+}
