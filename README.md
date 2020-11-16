@@ -2,7 +2,7 @@
 
 # HTML-CSS Capstone Project 
 
-> In this project we had to use everything we already learn and a bit more to fulfill the requirements, following the initial instructions i acomplished this website. 
+> In this project we had to use everything we already learn and a bit more to fulfill the requirements, following the initial instructions i acomplished this website. This is a website is built to gather people around the world for a various stands with conferences from different partners.
 
 ![screenshot](./assets/preview/index.png)
 ![screenshot](./assets/preview/about.png)
