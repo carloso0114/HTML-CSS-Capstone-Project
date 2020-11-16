@@ -2,7 +2,7 @@
   --black-1: #272a31;
   --red-2: #ec5242;
   --white-3: #d3d3d3;
-  
+
   font-size: 16px;
 }
 
@@ -125,11 +125,11 @@ td {
 
 .hover-red-1:hover {
   color: var(--red-2);
- }
+}
 
- .hover-red-1 a:hover {
+.hover-red-1 a:hover {
   color: var(--red-2);
- }
+}
 
 table {
   border: 8px dashed var(--red-2);
@@ -258,9 +258,10 @@ table {
     max-width: 768px;
     margin: auto;
   }
+
   td,
   th {
-    padding: 0px!important;
+    padding: 0 !important;
   }
 }
 
@@ -361,17 +362,17 @@ table {
   }
 }
 
-@media (min-width: 769px) and (max-width: 920px) { 
+@media (min-width: 769px) and (max-width: 920px) {
   td,
   th {
-    padding: 20px!important;
+    padding: 20px !important;
   }
 }
 
-@media (max-width: 395px) { 
+@media (max-width: 395px) {
   td,
   th {
-    padding: 0px!important;
+    padding: 0 !important;
     font-size: 0.9rem;
   }
 }
