@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/carloso0114/HTML-CSS-Capstone-Project/capstone-project/html/index.html)
+[Live Demo Link](https://raw.githack.com/carloso0114/HTML-CSS-Capstone-Project/capstone-project/index.html)
 
 ## How to run it
 
