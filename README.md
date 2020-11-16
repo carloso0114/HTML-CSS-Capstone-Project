@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple steps.
 
 * If you're using latest version of git.
 
-* Clone this url https://github.com/carloso0114/Building-with-Responsive-Design/tree/the-next-web on your local host.
+* Clone this url https://github.com/carloso0114/HTML-CSS-Capstone-Project on your local host.
 
 * You have to use a Web explorer browser like Google Chrome or Mozilla Firefox to open the index.html file.
 

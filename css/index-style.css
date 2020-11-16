@@ -211,24 +211,21 @@
   }
 }
 
-@media (max-width: 360px) {
-  * {
-    font-size: 12px;
-  }
+
+@media (min-width: 1px) and (max-width: 587px) { 
 
   .title-1 {
-    font-size: 1rem;
-    font-family: Lato-Regular, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
   }
 
   .title-2 {
-    font-size: 2rem;
-    font-family: Cocogoose-Regular, Arial, Helvetica, sans-serif;
+    font-size: 3.0rem;
   }
 
   .txt-small {
-    font-size: 0.9rem;
+    font-size: 1.2rem!important;
   }
+
 }
 
 @media (min-width: 769px) {
