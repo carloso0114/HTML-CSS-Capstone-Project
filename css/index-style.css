@@ -100,9 +100,13 @@
   display: grid;
 }
 
+.hover-red-1:hover {
+ color: var(--red-2);
+}
+
 @media (max-width: 768px) {
   body {
-    background: url(../assets/test.jpg) no-repeat center fixed;
+    background: url(../assets/background-1.jpg) no-repeat center fixed;
     background-size: cover;
   }
 
@@ -229,7 +233,7 @@
 
 @media (min-width: 769px) {
   body {
-    background: url(../assets/test.jpg) no-repeat center fixed;
+    background: url(../assets/background-1.jpg) no-repeat center fixed;
     background-size: cover;
   }
 

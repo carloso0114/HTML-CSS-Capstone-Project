@@ -17,9 +17,9 @@
         <ul class="nav navbar justify-content-end margin-10">
           <li class="nav-item"><a class="nav-link white-3" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
           <li class="nav-item"><a class="nav-link white-3" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li class="nav-item"><a class="nav-link white-3" href="#">Logout</a></li>
-          <li class="nav-item"><a class="nav-link white-3" href="#">Mypage</a></li>
-          <li class="nav-item"><a class="nav-link white-3" href="#">Español</a></li>
+          <li class="nav-item hover-red-1"><a class="nav-link white-3" href="#">Logout</a></li>
+          <li class="nav-item hover-red-1"><a class="nav-link white-3" href="index.html">Home</a></li>
+          <li class="nav-item hover-red-1"><a class="nav-link white-3" href="#">Español</a></li>
         </ul>
       </div>
     </nav>
@@ -29,12 +29,12 @@
           <li class="nav-item">
             <div><img class="m-w-100" src="../assets/logo/cctv.svg" alt="CCTV-Logo"></div>
           </li>
-          <li class="nav-item"><a class="nav-link red-2" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link text-reset" href="#">Program</a></li>
-          <li class="nav-item"><a class="nav-link text-reset" href="#">Join</a></li>
-          <li class="nav-item"><a class="nav-link text-reset" href="#">Sponsor</a></li>
-          <li class="nav-item"><a class="nav-link text-reset" href="#">News</a></li>
-          <li class="nav-item"><a class="nav-link red-2 red-2-bd" href="#">CC Campaign</a></li>
+          <li class="nav-item hover-red-1"><a class="nav-link text-reset" href="about.html">About</a></li>
+          <li class="nav-item hover-red-1"><a class="nav-link text-reset" href="#">Program</a></li>
+          <li class="nav-item hover-red-1"><a class="nav-link text-reset" href="#">Join</a></li>
+          <li class="nav-item hover-red-1"><a class="nav-link text-reset" href="#">Sponsor</a></li>
+          <li class="nav-item hover-red-1"><a class="nav-link text-reset" href="#">News</a></li>
+          <li class="nav-item hover-red-1"><a class="nav-link red-2 red-2-bd" href="tickets.html">Get Tickets</a></li>
         </ul>
       </div>
     </div>
@@ -46,21 +46,19 @@
   </header>
   <main>
     <div class="box-shadow pb-5 mb-5">
-    <div class="display-none-nav container-fluid pt-3 mb-4">
+    <aside class="display-none-nav container-fluid pt-3 mb-4">
       <div class="nav justify-content-end align-items-center margin-10-1">
         <i class="fa fa-home mx-2" aria-hidden="true"></i>
         <i class="fa fa-chevron-right red-2 mx-2" aria-hidden="true"></i>
-        <span class="pb-1">About</span>
-        <i class="fa fa-chevron-right red-2 mx-2" aria-hidden="true"></i>
-        <span class="pb-1">CC Campaign</span>
+        <span class="pb-1">Get Tickets</span>
       </div>
-    </div>
+    </aside>
     <div class="text-center pb-3 container-special">
-      <h5 class=" py-4"> <span class="underline pb-3 h3 font-weight-bold">Select Tickets</span></h5>
+      <h1 class=" py-4"> <span class="underline pb-3 h3 font-weight-bold">Select Tickets</span></h1>
       <p class="list-icon border-r-1 font-weight-bold"><span class="red-2 font-weight-bolder mr-3">STEP 1</span> Please select you lunch for registered day. There will be no further coasts for the lunch</p>
     </div>
-    <form class="test">
-      <table class="borders margin-0-auto text-center font-weight">
+    <form>
+      <table class="borders margin-0-auto text-center font-weight" >
         <tr>
           <th class="bg-info-4">Ticket</th>
           <th class="bg-info-4">1-Day-Ticket</th>
@@ -76,17 +74,17 @@
         </tr>
         <tr>
           <td>Normal</td>
-          <td><label class="red-2">$ USD 70</label><br><input type="radio" name="normal"></td>
-          <td><label class="red-2">$ USD 70</label><br><input type="radio" name="normal"></td>
-          <td><label class="red-2">$ USD 100</label><br><input type="radio" name="normal"></td>
-          <td><label class="red-2">$ USD 0</label><br><input type="radio" name="normal"></td>
+          <td><label class="red-2">$ USD 70</label><br><input type="radio" name="ticket"></td>
+          <td><label class="red-2">$ USD 70</label><br><input type="radio" name="ticket"></td>
+          <td><label class="red-2">$ USD 100</label><br><input type="radio" name="ticket"></td>
+          <td><label class="red-2">$ USD 0</label><br><input type="radio" name="ticket"></td>
         </tr>
         <tr>
           <td>Club Members</td>
-          <td><label class="red-2">$ USD 30</label><br><input type="radio" name="member"></td>
-          <td><label class="red-2">$ USD 30</label><br><input type="radio" name="member"></td>
-          <td><label class="red-2">$ USD 50</label><br><input type="radio" name="member"></td>
-          <td><label class="red-2">$ USD 0</label><br><input type="radio" name="member"></td>
+          <td><label class="red-2">$ USD 30</label><br><input type="radio" name="ticket"></td>
+          <td><label class="red-2">$ USD 30</label><br><input type="radio" name="ticket"></td>
+          <td><label class="red-2">$ USD 50</label><br><input type="radio" name="ticket"></td>
+          <td><label class="red-2">$ USD 0</label><br><input type="radio" name="ticket"></td>
         </tr>
       </table>
     </form>

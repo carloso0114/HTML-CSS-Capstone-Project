@@ -2,7 +2,7 @@
   --black-1: #272a31;
   --red-2: #ec5242;
   --white-3: #d3d3d3;
-
+  
   font-size: 16px;
 }
 
@@ -123,9 +123,13 @@ td {
   padding: 25px 50px;
 }
 
-.test {
-  overflow-x: auto;
-}
+.hover-red-1:hover {
+  color: var(--red-2);
+ }
+
+ .hover-red-1 a:hover {
+  color: var(--red-2);
+ }
 
 table {
   border: 8px dashed var(--red-2);
@@ -142,6 +146,10 @@ table {
     inset 0 11px 8px -10px #ccc,
     inset 0 -1px 1px 0 #ccc;
   background-color: rgb(243, 243, 243);
+}
+
+.margin-0-auto {
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -244,6 +252,16 @@ table {
   .btn-lg-1 {
     height: 90px;
   }
+
+  .container-special {
+    min-width: 360px;
+    max-width: 768px;
+    margin: auto;
+  }
+  td,
+  th {
+    padding: 0px!important;
+  }
 }
 
 @media (min-width: 769px) {
@@ -341,8 +359,19 @@ table {
     margin-right: 11%;
     margin-left: auto;
   }
+}
 
-  .margin-0-auto {
-    margin: 0 auto;
+@media (min-width: 769px) and (max-width: 920px) { 
+  td,
+  th {
+    padding: 20px!important;
+  }
+}
+
+@media (max-width: 395px) { 
+  td,
+  th {
+    padding: 0px!important;
+    font-size: 0.9rem;
   }
 }
